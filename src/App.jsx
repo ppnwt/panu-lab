@@ -10,10 +10,10 @@ import { Wrap, WrapItem } from '@chakra-ui/react'
 
 function App() {
   return (
-    <div>
-      <Heading>Panu Lab</Heading>
+    <div className='App'>
+      <Heading>Panu Lab 💻</Heading>
       <Text fontSize='md'> This is playground for test anything, Hell Yeah!</Text>
-       <br />
+      <br />
       <Breadcrumb fontWeight='medium' fontSize='lg'>
         <BreadcrumbItem>
           <BreadcrumbLink href='#'>Home</BreadcrumbLink>
@@ -23,7 +23,7 @@ function App() {
           <BreadcrumbLink href='#'>Articles</BreadcrumbLink>
         </BreadcrumbItem>
 
-         <BreadcrumbItem isCurrentPage>
+        <BreadcrumbItem isCurrentPage>
           <BreadcrumbLink href='#'>Proof Of Concepts</BreadcrumbLink>
         </BreadcrumbItem>
 
@@ -33,7 +33,7 @@ function App() {
 
       </Breadcrumb>
       <Divider />
-       <br />
+      <br />
 
       <Wrap spacing='30px'>
         <WrapItem>
@@ -46,7 +46,17 @@ function App() {
                   New
                 </Badge>
               </Text>
-              <Text fontSize='sm'>Software Engineer</Text>
+              <Text fontWeight={'regular'}>Software Engineer</Text>
+              <Text fontSize='sm'>
+              <ul>
+                <li>🔭 Developer at Thai Life Insurance Public Company Limited.</li>
+                <li>☕ Latte & Americano addicted</li>
+                <li>🌱 I’m currently learning ... in role of Full Stack Developer</li>
+                <li>🔆 I'm passionate about learning and development</li>
+                <li>📫 How to reach me: @medium</li>
+                <li>📘 Codesandbox: @codesandbox</li>
+              </ul>
+              </Text>
             </Box>
           </Flex>
         </WrapItem>
