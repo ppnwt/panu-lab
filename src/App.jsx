@@ -7,7 +7,8 @@ import {
 import BreadCrumb from './components/BreadCrumb'
 import Summary from './features/summary/Summary'
 import Experiences from './features/experiences/Experiences'
-import Life from './features/bio/Life'
+import Bio from './features/bio/Life'
+import Blog from './features/blog/Blog'
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       <Text fontSize='md'> This is playground for test anything, Hell Yeah!</Text>
       <Divider />
       <BreadCrumb />
-      <Life />
+      <Bio />
+      <Blog />
       <Summary />
       <Experiences />
     </div>

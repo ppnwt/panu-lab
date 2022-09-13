@@ -11,8 +11,10 @@ import {
   GridItem,
   Divider,
   Badge,
+  Avatar,
 } from '@chakra-ui/react';
 import { expLists } from "../../utils/api/experiences";
+import { avatarPhoto } from "../../utils/apiMockup";
 
 export default function blogPostWithImage() {
   return (
@@ -31,7 +33,9 @@ export default function blogPostWithImage() {
             p={6}
             overflow={'hidden'}>
             <Stack>
-              <Text
+            <Grid templateColumns={'repeat(2, 1fr)'}>
+              <GridItem>
+                <Text
                 color={'grey.500'}
                 textTransform={'uppercase'}
                 fontWeight={800}
@@ -61,6 +65,11 @@ export default function blogPostWithImage() {
                 letterSpacing={1.1}>
                 {data.year}
               </Text>
+              </GridItem>
+              <GridItem alignItems={'flex-end'}>
+                {/* <Avatar size={'lg'} src={'https://www.thailife.com/public/assets/images/LOGO-THAILIFE.jpg'} /> */}
+              </GridItem>
+            </Grid>
               <Divider />
               <Text color={'gray.500'}>
                 {data.description}

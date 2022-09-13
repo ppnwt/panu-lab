@@ -23,10 +23,10 @@ export const bio = [
   },
   {
     id: 5,
-    label: "📫 How to reach me: medium.com/@newzpanuwat",
+    label: "📫 email: new_sbh@me.com | panuwat.brd@gmail.com",
   },
   {
     id: 6,
-    label: "📘 Codesandbox: @codesandbox",
+    label: "📘 Github: /newzpanuwat",
   },
 ];
