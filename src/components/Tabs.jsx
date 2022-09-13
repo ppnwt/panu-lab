@@ -5,35 +5,19 @@ import {
   VStack,
 } from '@chakra-ui/react'
 
+import { lists } from "../utils/lists";
+
 export function Tabs (){
- return (
-   <>
-    <VStack paddingTop="5px" spacing="2" alignItems="flex-end">
-    <Breadcrumb fontWeight='medium' fontSize='lg'>
-      <BreadcrumbItem>
-        <BreadcrumbLink href='#'>Home</BreadcrumbLink>
-      </BreadcrumbItem>
-
-      <BreadcrumbItem isCurrentPage>
-        <BreadcrumbLink href='#'>Data Knowledge</BreadcrumbLink>
-      </BreadcrumbItem>
-
-      <BreadcrumbItem isCurrentPage>
-        <BreadcrumbLink href='#'>Proof Of Concepts</BreadcrumbLink>
-      </BreadcrumbItem>
-
-      
-      <BreadcrumbItem isCurrentPage>
-        <BreadcrumbLink href='#'>Portfolio</BreadcrumbLink>
-      </BreadcrumbItem>
-
-      <BreadcrumbItem isCurrentPage>
-        <BreadcrumbLink href='#'>Blog</BreadcrumbLink>
-      </BreadcrumbItem>
-
-    </Breadcrumb>
+  return (
+    <VStack paddingTop="10px" spacing="2" alignItems="center">
+      <Breadcrumb fontWeight="bold" fontSize='md'>
+        {lists.map((tab) => 
+          <BreadcrumbItem key={tab.id}>
+            <BreadcrumbLink href='#'>{tab.label}</BreadcrumbLink>
+          </BreadcrumbItem>
+          )}
+      </Breadcrumb>
     </VStack>
-   </>
- )
+  )
 };
 

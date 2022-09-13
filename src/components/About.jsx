@@ -4,30 +4,11 @@ export function About (){
   return (
     <>
     <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
-      <Heading as="h2">What we write about</Heading>
+      <Heading as="h2">Summary</Heading>
       <Text as="p" fontSize="lg">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum
-        quam arcu, eu tempus tortor molestie at. Vestibulum pretium condimentum
-        dignissim. Vestibulum ultrices vitae nisi sed imperdiet. Mauris quis erat
-        consequat, commodo massa quis, feugiat sapien. Suspendisse placerat
-        vulputate posuere. Curabitur neque tortor, mattis nec lacus non, placerat
-        congue elit.
-      </Text>
-      <Text as="p" fontSize="lg">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum
-        quam arcu, eu tempus tortor molestie at. Vestibulum pretium condimentum
-        dignissim. Vestibulum ultrices vitae nisi sed imperdiet. Mauris quis erat
-        consequat, commodo massa quis, feugiat sapien. Suspendisse placerat
-        vulputate posuere. Curabitur neque tortor, mattis nec lacus non, placerat
-        congue elit.
-      </Text>
-      <Text as="p" fontSize="lg">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum
-        quam arcu, eu tempus tortor molestie at. Vestibulum pretium condimentum
-        dignissim. Vestibulum ultrices vitae nisi sed imperdiet. Mauris quis erat
-        consequat, commodo massa quis, feugiat sapien. Suspendisse placerat
-        vulputate posuere. Curabitur neque tortor, mattis nec lacus non, placerat
-        congue elit.
+        My primary goal is to apply my technical expertise all throughout the full software life cycle to ensure the production and delivery of products and services. 
+        My experience as a software engineer enhanced my abilities in designing, implementing, testing, 
+        and upgrading software. One of my objectives is to keep updated with the latest IT trends and technologies.
       </Text>
     </VStack>
     </>
