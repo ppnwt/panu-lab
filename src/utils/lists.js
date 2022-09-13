@@ -1,7 +1,7 @@
 export const lists = [
   {
     id: 1,
-    label: "Home",
+    label: "Me",
   },
   {
     id: 2,

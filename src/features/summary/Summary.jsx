@@ -1,6 +1,6 @@
 import { Text, Heading, VStack } from "@chakra-ui/react";
 
-export function About (){
+export default function Summary (){
   return (
     <>
     <VStack paddingTop="40px" spacing="2" alignItems="flex-start">

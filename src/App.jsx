@@ -4,20 +4,22 @@ import {
   Divider,
   Heading, 
 } from '@chakra-ui/react'
-import { About } from './components/About'
-import { Tabs } from './components/Tabs'
-import Card from './components/Card'
-import Life from './components/Life'
+import BreadCrumb from './components/BreadCrumb'
+import Summary from './features/summary/Summary'
+import Experiences from './features/experiences/Experiences'
+import Life from './features/bio/Life'
+
 
 function App() {
   return (
     <div className='App'>
       <Heading>Panu Lab 💻</Heading>
       <Text fontSize='md'> This is playground for test anything, Hell Yeah!</Text>
-      <Tabs />
+      <Divider />
+      <BreadCrumb />
       <Life />
-      <About />
-      <Card />
+      <Summary />
+      <Experiences />
     </div>
   )
 }

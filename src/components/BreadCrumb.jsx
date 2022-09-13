@@ -7,13 +7,13 @@ import {
 
 import { lists } from "../utils/lists";
 
-export function Tabs (){
+export default function BreadCrumb (){
   return (
     <VStack paddingTop="10px" spacing="2" alignItems="center">
       <Breadcrumb fontWeight="bold" fontSize='md'>
         {lists.map((tab) => 
           <BreadcrumbItem key={tab.id}>
-            <BreadcrumbLink href='#'>{tab.label}</BreadcrumbLink>
+            <BreadcrumbLink>{tab.label}</BreadcrumbLink>
           </BreadcrumbItem>
           )}
       </Breadcrumb>
