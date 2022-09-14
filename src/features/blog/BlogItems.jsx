@@ -17,7 +17,7 @@ export default function BlogItems({ data }) {
           borderRadius='lg'
           width={{ md: 40 }}
           src={data.imageUrl}
-          alt=''
+          alt={data.title}
         />
         </LazyLoad>
       </Box>
