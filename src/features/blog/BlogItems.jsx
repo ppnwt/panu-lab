@@ -17,6 +17,7 @@ import {
 
 export default function BlogItems({ data }) {
   return (
+    <>
     <Box p={4} display={{ md: 'flex' }} key={data.id}>
       <Box flexShrink={0}>
         <Image
@@ -55,5 +56,8 @@ export default function BlogItems({ data }) {
         </Text>
       </Box>
     </Box>
+    <Divider />
+    </>
+    
   )
 }

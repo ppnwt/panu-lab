@@ -51,7 +51,6 @@ export default function Blog() {
           </Flex>
         </WrapItem>
       </Wrap>
-      <Divider />
     </VStack>
     <VStack paddingTop="20px" spacing="2" alignItems="center">
       <Button
