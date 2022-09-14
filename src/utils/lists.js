@@ -13,10 +13,6 @@ export const lists = [
   },
   {
     id: 4,
-    label: "Portfolio",
-  },
-  {
-    id: 5,
     label: "Blog",
   },
 ];

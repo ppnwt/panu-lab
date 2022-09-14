@@ -113,20 +113,6 @@ export const expLists = [
   },
   {
     id: 9,
-    projectName: "Schoolbus Tracker",
-    companyName: "Swiftlet Co Ltd",
-    position: "Software Engineer",
-    companyColor: "red.500",
-    frontend: "Jquery",
-    backend: "Ruby On Rails",
-    devops: "",
-    database: "Mongo DB",
-    year: "Mar 2018 - Aug 2018",
-    description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
-  },
-  {
-    id: 10,
     projectName: "10DK",
     companyName: "Swiftlet Co Ltd",
     position: "Software Engineer",
@@ -140,7 +126,7 @@ export const expLists = [
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
   },
   {
-    id: 11,
+    id: 10,
     projectName: "Schoolbus Tracker",
     companyName: "Swiftlet Co Ltd",
     position: "Software Engineer",
