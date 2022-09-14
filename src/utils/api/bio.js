@@ -15,12 +15,4 @@ export const bio = [
     id: 4,
     label: "🔆 I'm passionate about learning and development",
   },
-  {
-    id: 5,
-    label: "📫 email: new_sbh@me.com | panuwat.brd@gmail.com",
-  },
-  {
-    id: 6,
-    label: "📘 Github: /newzpanuwat",
-  },
 ];

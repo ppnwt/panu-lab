@@ -7,6 +7,7 @@ import {
   IconButton,
   Tooltip,
   HStack,
+  Link,
 } from "@chakra-ui/react";
 import {
   MdEmail,
@@ -27,42 +28,32 @@ export default function Footer() {
           spacing={5}
           px={5}
           alignItems="flex-start">
-          <IconButton
-            aria-label="medium"
-            variant="ghost"
-            size="lg"
-            isRound
-            _hover={{
-                bg: 'green.500',
-                color: useColorModeValue('white', 'gray.700'),
-              }}
-            icon={<BsMedium size="28px" />}
-            // onClick={''}
-          />
-          <IconButton
-            aria-label="location"
-            variant="ghost"
-            size="lg"
-            isRound
-            _hover={{
-                bg: 'red.500',
-                color: useColorModeValue('white', 'gray.700'),
-              }}
-            icon={<MdLocationOn size="28px" />}
-            // onClick={''}
-          />
-          <IconButton
-            aria-label="github"
-            variant="ghost"
-            size="lg"
-            isRound={true}
-            _hover={{
-                bg: 'gray.500',
-                color: useColorModeValue('white', 'gray.700'),
-              }}
-            icon={<BsGithub size="28px" />}
-            // onClick={''}
-          />
+          <Link href="https://medium.com/@newzpanuwat" target={'_blank'}>
+            <IconButton
+              aria-label="medium"
+              variant="ghost"
+              size="lg"
+              isRound
+              _hover={{
+                  bg: 'green.500',
+                  color: useColorModeValue('white', 'gray.700'),
+                }}
+              icon={<BsMedium size="28px" />}
+            />
+          </Link>
+          <Link href="https://github.com/newzpanuwat" target={'_blank'}>
+            <IconButton
+              aria-label="github"
+              variant="ghost"
+              size="lg"
+              isRound={true}
+              _hover={{
+                  bg: 'gray.500',
+                  color: useColorModeValue('white', 'gray.700'),
+                }}
+              icon={<BsGithub size="28px" />}
+            />
+            </Link>
           <Tooltip
             label={hasCopied ? 'Email Copied!' : 'Copy Email'}
             closeOnClick={false}
