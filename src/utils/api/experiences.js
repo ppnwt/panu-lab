@@ -7,11 +7,11 @@ export const expLists = [
     companyColor: "blue.500",
     frontend: "Next JS",
     backend: "Java Spring Boot",
-    devops: "CI/CD Jenkins",
+    devops: "Kubernetes",
     database: "Postgres",
     year: "July 2022 - Present",
     description:
-      "Working with internal project (Gathering all services into one service), In this project I've design and develop frontend application using Next JS and connect API with Java spring boot, in Backend section is RESTful API, and deployment with jenkins CI/CD",
+      "Working with internal project (Gathering all partner services into one service), In this project I've designed and develop frontend application using Next JS and connect API, in Backend section is RESTful API, and deployment with Kubernetes On-Premise",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const expLists = [
     database: "Postgres",
     year: "July 2022 - July 2022",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "This project working about financial data of customers, CRUD data, Upload xlsx files to cloud storage, send and receive requests with RESTful API backend , And Generate report from json data, I've designed project structure Next js and pick up suitable libraries for developer in our team.",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export const expLists = [
     database: "Postgres",
     year: "June 2021 - May 2022",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+      "This project I've built Web Application about questionnaire for officer's government to keep data source from children and family issues, then gathering data respnse to any charts response solutions to that family, I built Front and Backend stack React js and Ruby on Rails",
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ export const expLists = [
     database: "Postgres",
     year: "Mar 2021 - Apr 2021",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+      "I've built feature in frontend feature, Color Scheme, change theme in app any color u want, Pick the color by hexcode then save data into Postgres DB, and upload images to Django python",
   },
   {
     id: 5,
@@ -67,7 +67,7 @@ export const expLists = [
     database: "",
     year: "Nov 2020 - Feb 2021",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+      "Designed structure and develop features Chat SmartFarmer(ฉัตร สมาร์ทฟาร์มเมอร์) With Flutter Mobule cross platform, connect with APIs CPI backend.",
   },
   {
     id: 6,
@@ -81,7 +81,7 @@ export const expLists = [
     database: "",
     year: "Oct 2020 - Nov 2020",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+      "My reponsible is research and deploy Terebinth Web application to Amazon Web Service EKS, for KU",
   },
   {
     id: 7,
@@ -95,7 +95,7 @@ export const expLists = [
     database: "Mongo DB",
     year: "Mar 2019 - Sep 2020",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+      "Terebinth ERP is a business process management and information system (ERP) on the Cloud within the organization that integrates the functionality of every department or corporate units within a single system.",
   },
   {
     id: 8,
@@ -109,10 +109,24 @@ export const expLists = [
     database: "Mongo DB",
     year: "Sep 2018 - Feb 2019",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+      "Ardala is an online platform bringing together startups and service providers, In this project I've built Frontend Vue js and Backend Ruby on Rails.",
   },
   {
     id: 9,
+    projectName: "Schoolbus Tracker",
+    companyName: "Swiftlet Co Ltd",
+    position: "Software Engineer",
+    companyColor: "red.500",
+    frontend: "Jquery",
+    backend: "Ruby On Rails",
+    devops: "",
+    database: "Mongo DB",
+    year: "Mar 2018 - Aug 2018",
+    description:
+      "School bus Tracker is GPS tracking system school bus of each bus of that school will know where your children is on the road. In this project I've built Frontend Jquery and Backend Ruby on Rails.",
+  },
+  {
+    id: 10,
     projectName: "10DK",
     companyName: "Swiftlet Co Ltd",
     position: "Software Engineer",
@@ -123,11 +137,11 @@ export const expLists = [
     database: "Mongo DB",
     year: "Jan 2018 - Feb 2018",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+      "Single Page Application with Angular JS / 10DK Web Application, This my section project on production, I've built Angular JS",
   },
   {
-    id: 10,
-    projectName: "Schoolbus Tracker",
+    id: 11,
+    projectName: "Thumbprint",
     companyName: "Swiftlet Co Ltd",
     position: "Software Engineer",
     companyColor: "red.500",
@@ -137,6 +151,6 @@ export const expLists = [
     database: "Mongo DB",
     year: "Aug 2017 - Dec 2017",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+      "This is my first official project, It’s Swiftlet Internal project, for tracking clock in time and clock out time employees, I've built existing features e.g Generate report each employee to xlsx, built approve / request timesheet",
   },
 ];
