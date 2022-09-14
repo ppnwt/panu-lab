@@ -1,13 +1,8 @@
 import { 
-  Badge, 
-  Flex, 
   Avatar, 
-  Box, 
   Text, 
   ListItem,
   UnorderedList,
-  Wrap, 
-  WrapItem,
   VStack,
   Divider,
   Heading,
@@ -19,11 +14,11 @@ import { bio } from "../../utils/api/bio";
 export default function Life() {
   return (
     <VStack paddingTop="20px" spacing="2" alignItems="center">
-      <Avatar size={'xl'} src={avatarPhoto} />
+      <Avatar size={'xl'} src={'/src/assets/panu.svg'} />
         <Text as="p" fontSize={'xl'} fontWeight='bold'>
           Panuwat Boonrod (New)
         </Text>
-        <Text fontSize={'xl'}>Software Engineer</Text>
+        <Text fontSize={'xl'}>I am Software Engineer</Text>
         <UnorderedList>
           {bio.map((data) =>  <ListItem key={data.id}>{data.label}</ListItem>)}
         </UnorderedList>
