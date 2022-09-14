@@ -7,7 +7,7 @@ import {
 import BreadCrumb from './components/BreadCrumb'
 import Summary from './features/summary/Summary'
 import Experiences from './features/experiences/Experiences'
-import Bio from './features/bio/Life'
+import Bio from './features/bio/Bio'
 import Blog from './features/blog/Blog'
 
 

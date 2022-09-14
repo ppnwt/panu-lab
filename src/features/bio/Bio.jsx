@@ -13,7 +13,8 @@ import {
   Heading,
 } from '@chakra-ui/react'
 
-import { avatarPhoto, bio } from "../../utils/apiMockup";
+import { avatarPhoto } from "../../utils/apiMockup";
+import { bio } from "../../utils/api/bio";
 
 export default function Life() {
   return (

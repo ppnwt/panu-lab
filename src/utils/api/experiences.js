@@ -11,7 +11,7 @@ export const expLists = [
     database: "Postgres",
     year: "July 2022 - Present",
     description:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "Working with internal project (Gathering all services into one service), In this project I've design and develop frontend application using Next JS and connect API with Java spring boot, in Backend section is RESTful API, and deployment with jenkins CI/CD",
   },
   {
     id: 2,
