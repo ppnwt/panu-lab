@@ -15,12 +15,27 @@ import {
   Image,
   Button,
   useColorModeValue,
+  useControllableState,
 } from '@chakra-ui/react'
 
 import { blogsIndex } from "../../utils/api/blog";
+import { blogsAll } from "../../utils/api/blogAll";
 import BlogItems from './BlogItems';
 
-export default function Life() {
+export default function Blog() {
+  const [blogsList, setBlogs] = useControllableState({ defaultValue: blogsIndex })
+  const [full, isFull] = useControllableState({ defaultValue: false })
+
+  const handleLoadMore = () => {
+    if (full) {
+      setBlogs(blogsIndex)
+      isFull(false)
+    }else {
+      setBlogs(blogsAll)
+      isFull(true)
+    }
+  }
+
   return (
     <>
       <VStack paddingTop="20px" spacing="2" alignItems="flex-start">
@@ -29,7 +44,7 @@ export default function Life() {
         <WrapItem>
           <Flex>
             <Box ml='1'>
-                {blogsIndex.map((data) => 
+                {blogsList.map((data) => 
                   <BlogItems data={data} />
                 )}
             </Box>
@@ -48,8 +63,8 @@ export default function Life() {
           transform: 'translateY(-2px)',
           boxShadow: 'lg',
         }}
-        onClick={() => {}}>
-        See more
+        onClick={handleLoadMore}>
+        { full ? 'See less' : 'See all' }
       </Button>
     </VStack>
     </>
