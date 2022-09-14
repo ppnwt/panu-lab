@@ -1,31 +1,25 @@
 import { 
-  Badge, 
-  Flex, 
-  Avatar, 
   Box, 
   Text, 
-  ListItem,
-  UnorderedList,
-  Wrap, 
-  WrapItem,
-  VStack,
   Divider,
-  Heading,
   Link,
   Image,
 } from '@chakra-ui/react'
+import LazyLoad from 'react-lazy-load';
 
 export default function BlogItems({ data }) {
   return (
     <div key={data.id}>
     <Box p={4} display={{ md: 'flex' }} >
       <Box flexShrink={0}>
+        <LazyLoad offsetBottom={200}>
         <Image
           borderRadius='lg'
           width={{ md: 40 }}
           src={data.imageUrl}
           alt=''
         />
+        </LazyLoad>
       </Box>
       <Box mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
         <Text

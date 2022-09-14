@@ -36,8 +36,6 @@ export default function blogPostWithImage() {
               p={6}
               overflow={'hidden'}>
               <Stack>
-              <Grid templateColumns={'repeat(2, 1fr)'}>
-                <GridItem>
                   <Text
                   color={'grey.500'}
                   textTransform={'uppercase'}
@@ -68,11 +66,6 @@ export default function blogPostWithImage() {
                   letterSpacing={1.1}>
                   {data.year}
                 </Text>
-                </GridItem>
-                <GridItem alignItems={'flex-end'}>
-                  {/* <Avatar size={'lg'} src={'https://www.thailife.com/public/assets/images/LOGO-THAILIFE.jpg'} /> */}
-                </GridItem>
-              </Grid>
                 <Divider />
                 <Text color={'gray.500'}>
                   {data.description}
@@ -101,8 +94,6 @@ export default function blogPostWithImage() {
                 p={6}
                 overflow={'hidden'}>
                 <Stack>
-                <Grid templateColumns={'repeat(2, 1fr)'}>
-                  <GridItem>
                     <Text
                     color={'grey.500'}
                     textTransform={'uppercase'}
@@ -133,11 +124,6 @@ export default function blogPostWithImage() {
                     letterSpacing={1.1}>
                     {data.year}
                   </Text>
-                  </GridItem>
-                  <GridItem alignItems={'flex-end'}>
-                    {/* <Avatar size={'lg'} src={'https://www.thailife.com/public/assets/images/LOGO-THAILIFE.jpg'} /> */}
-                  </GridItem>
-                </Grid>
                   <Divider />
                   <Text color={'gray.500'}>
                     {data.description}
@@ -165,8 +151,6 @@ export default function blogPostWithImage() {
               p={6}
               overflow={'hidden'}>
               <Stack>
-              <Grid templateColumns={'repeat(2, 1fr)'}>
-                <GridItem>
                   <Text
                   color={'grey.500'}
                   textTransform={'uppercase'}
@@ -197,11 +181,6 @@ export default function blogPostWithImage() {
                   letterSpacing={1.1}>
                   {data.year}
                 </Text>
-                </GridItem>
-                <GridItem alignItems={'flex-end'}>
-                  {/* <Avatar size={'lg'} src={'https://www.thailife.com/public/assets/images/LOGO-THAILIFE.jpg'} /> */}
-                </GridItem>
-              </Grid>
                 <Divider />
                 <Text color={'gray.500'}>
                   {data.description}

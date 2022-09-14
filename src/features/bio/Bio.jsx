@@ -19,22 +19,14 @@ import { bio } from "../../utils/api/bio";
 export default function Life() {
   return (
     <VStack paddingTop="20px" spacing="2" alignItems="center">
-      {/* <Wrap spacing='30px' alignItems={'center'}>
-        <WrapItem> */}
-          {/* <Flex> */}
-            <Avatar size={'xl'} src={avatarPhoto} />
-            {/* <Box> */}
-              <Text as="p" fontSize={'xl'} fontWeight='bold'>
-                Panuwat Boonrod (New)
-              </Text>
-              <Text fontSize={'xl'}>Software Engineer</Text>
-              <UnorderedList>
-                {bio.map((data) =>  <ListItem key={data.id}>{data.label}</ListItem>)}
-              </UnorderedList>
-            {/* </Box> */}
-          {/* </Flex> */}
-        {/* </WrapItem>
-      </Wrap> */}
+      <Avatar size={'xl'} src={avatarPhoto} />
+        <Text as="p" fontSize={'xl'} fontWeight='bold'>
+          Panuwat Boonrod (New)
+        </Text>
+        <Text fontSize={'xl'}>Software Engineer</Text>
+        <UnorderedList>
+          {bio.map((data) =>  <ListItem key={data.id}>{data.label}</ListItem>)}
+        </UnorderedList>
       <Divider />
     </VStack>
     )
