@@ -14,7 +14,7 @@ import { bio } from "../../utils/api/bio";
 export default function Life() {
   return (
     <VStack paddingTop="20px" spacing="2" alignItems="center">
-      <Avatar size={'xl'} src={'/src/assets/panu_avatar.png'} />
+      <Avatar size={'xl'} src={avatarPhoto} />
         <Text as="p" fontSize={'xl'} fontWeight='bold'>
           Panuwat Boonrod (New)
         </Text>
