@@ -6,6 +6,27 @@ import { VitePWA } from "vite-plugin-pwa";
 export default defineConfig({
   plugins: [
     react(),
-    VitePWA({ registerType: "autoUpdate", injectRegister: "auto" }),
+    VitePWA({
+      registerType: "autoUpdate",
+      injectRegister: "auto",
+      manifest: {
+        name: "PanuLab",
+        short_name: "PanuLab",
+        description: "PanuLab Playground",
+        theme_color: "#ffffff",
+        icons: [
+          {
+            src: "pwa-192x192.jpg",
+            sizes: "192x192",
+            type: "image/jpeg",
+          },
+          {
+            src: "pwa-512x512.jpg",
+            sizes: "512x512",
+            type: "image/jpeg",
+          },
+        ],
+      },
+    }),
   ],
 });
