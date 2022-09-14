@@ -37,7 +37,7 @@ export default function Footer() {
                 color: useColorModeValue('white', 'gray.700'),
               }}
             icon={<BsMedium size="28px" />}
-            onClick={''}
+            // onClick={''}
           />
           <IconButton
             aria-label="location"
@@ -49,7 +49,7 @@ export default function Footer() {
                 color: useColorModeValue('white', 'gray.700'),
               }}
             icon={<MdLocationOn size="28px" />}
-            onClick={''}
+            // onClick={''}
           />
           <IconButton
             aria-label="github"
@@ -61,7 +61,7 @@ export default function Footer() {
                 color: useColorModeValue('white', 'gray.700'),
               }}
             icon={<BsGithub size="28px" />}
-            onClick={''}
+            // onClick={''}
           />
           <Tooltip
             label={hasCopied ? 'Email Copied!' : 'Copy Email'}

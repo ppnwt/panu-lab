@@ -45,7 +45,7 @@ export default function Blog() {
           <Flex>
             <Box ml='1'>
                 {blogsList.map((data) => 
-                  <BlogItems data={data} />
+                  <BlogItems key={data.id} data={data} />
                 )}
             </Box>
           </Flex>
