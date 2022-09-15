@@ -18,7 +18,7 @@ export default function Life() {
         <Text as="p" fontSize={'xl'} fontWeight='bold'>
           Panuwat Boonrod (New)
         </Text>
-        <Text fontSize={'xl'}>I am Software Engineer</Text>
+        <Text fontSize={'xl'}>Software Engineer</Text>
         <UnorderedList>
           {bio.map((data) =>  <ListItem key={data.id}>{data.label}</ListItem>)}
         </UnorderedList>

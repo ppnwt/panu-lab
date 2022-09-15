@@ -1,7 +1,7 @@
 export const bio = [
   {
     id: 1,
-    label: "🔭 Developer at Thai Life Insurance Public Company Limited.",
+    label: "🔭 @Thai Life Insurance Public Company Limited.",
   },
   {
     id: 2,
