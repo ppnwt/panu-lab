@@ -8,7 +8,7 @@ import {
   useColorModeValue,
   VStack,
 } from '@chakra-ui/react';
-import { portPhoto } from "../utils/apiMockup";
+import { portPhoto } from "../../utils/api/images";
 
 export default function blogPostWithImage() {
   return (

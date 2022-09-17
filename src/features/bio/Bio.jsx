@@ -8,7 +8,7 @@ import {
   Heading,
 } from '@chakra-ui/react'
 
-import { avatarPhoto } from "../../utils/images";
+import { avatarPhoto } from "../../utils/api/images";
 import { bio } from "../../utils/api/bio";
 
 export default function Life() {
