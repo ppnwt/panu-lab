@@ -23,7 +23,7 @@ export const expLists = [
     backend: "Java Spring Boot",
     devops: "CI/CD Jenkins",
     database: "Postgres",
-    year: "July 2022 - July 2022",
+    year: "June 2022 - July 2022",
     description:
       "This project working about financial data of customers, CRUD data, Upload xlsx files to cloud storage, send and receive requests with RESTful API backend , And Generate report from json data, I've designed project structure Next js and pick up suitable libraries for developer in our team.",
   },
