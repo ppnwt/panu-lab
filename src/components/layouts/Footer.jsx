@@ -55,7 +55,7 @@ export default function Footer() {
               icon={<BsGithub size="28px" />}
             />
             </Link>
-          <Link href="https://drive.google.com/file/d/1gwWY41ssJ1pdZLhPoKTey8pC9AhJqj6s/view?usp=sharing" target={'_blank'}>
+          {/* <Link href="https://drive.google.com/file/d/1gwWY41ssJ1pdZLhPoKTey8pC9AhJqj6s/view?usp=sharing" target={'_blank'}>
             <IconButton
               aria-label="documentPdf"
               variant="ghost"
@@ -67,7 +67,7 @@ export default function Footer() {
                 }}
               icon={<GoFilePdf size="28px" />}
             />
-            </Link>
+            </Link> */}
           <Tooltip
             label={hasCopied ? 'Email Copied!' : 'Copy Email'}
             closeOnClick={false}
