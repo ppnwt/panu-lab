@@ -17,7 +17,7 @@ import { BsGithub, BsMedium } from 'react-icons/bs';
 import { GoFilePdf } from 'react-icons/go';
 
 export default function Footer() {
-  const { hasCopied, onCopy } = useClipboard('panuwat.brd@gmail.com');
+  const { hasCopied, onCopy } = useClipboard('panu.brd@gmail.com');
   return (
     <>
     <VStack paddingTop="20px" spacing="2" alignItems="center">
