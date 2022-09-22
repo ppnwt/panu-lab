@@ -18,7 +18,7 @@ export const blogsAll = [
     date: "1 Aug 2022",
     imageUrl: "https://miro.medium.com/max/1400/1*LETruUal4sqbvZfVOxEnpQ.jpeg",
     description:
-      "จุดประสงค์หลักเลยของการทำ Code Refactoring คือการ ลด technical debt เพื่อทำให้ โค้ดของเรามีคุณภาพมากขึ้น easy maintain, clean, readability และ ต้นทุนการพัฒนาก็จะลดลงไปด้วย เราไปดูกันว่า มีปัจจัยอะไรบ้าง",
+      "วันก่อน ไปเจอฟีเจอร์นึง ของ Next.js ที่ไปลองมาแล้วคิดว่าดี เลยอยากจะเอามาแชร์ให้รู้กัน แต่สำหรับคนที่ยังไม่รู้นะครับ…",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ export const blogsAll = [
     date: "20 July 2022",
     imageUrl: "https://miro.medium.com/max/1400/1*ItOBrhvSYpPCqs6XV6bmLg.jpeg",
     description:
-      "จุดประสงค์หลักเลยของการทำ Code Refactoring คือการ ลด technical debt เพื่อทำให้ โค้ดของเรามีคุณภาพมากขึ้น easy maintain, clean, readability และ ต้นทุนการพัฒนาก็จะลดลงไปด้วย เราไปดูกันว่า มีปัจจัยอะไรบ้าง",
+      "ใน javascript มี operator ตัวนึงที่น่าสนใจ คือ optional operator (?.) โดยปกติหากเราต้องการ เข้าถึง properties ใน object นั้นๆ เราจะต้อง .properties เข้าไป แต่ถ้าหากเราไม่แน่ใจว่า จะมี properties นั้นๆ อยู่ไหม optional chaning อาจเข้ามาช่วยได้",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ export const blogsAll = [
     date: "17 Mar 2020",
     imageUrl: "https://miro.medium.com/max/1400/1*zkA1cWgJDlMUxI5TRcIHdQ.jpeg",
     description:
-      "จุดประสงค์หลักเลยของการทำ Code Refactoring คือการ ลด technical debt เพื่อทำให้ โค้ดของเรามีคุณภาพมากขึ้น easy maintain, clean, readability และ ต้นทุนการพัฒนาก็จะลดลงไปด้วย เราไปดูกันว่า มีปัจจัยอะไรบ้าง",
+      "ตามหัวข้อที่ได้กล่าวมาเลย เนื่องจากก่อนหน้านี้ได้ไปดูการทำ package ใช้เอง ของ python มาเลยเกิดไอเดียว่า อยากลองทำของ Ruby gems ดูบ้าง",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ export const blogsAll = [
     imageUrl:
       "https://miro.medium.com/max/1400/1*eFgBObf5qDDNpTn4ZUZW-Q@2x.jpeg",
     description:
-      "จุดประสงค์หลักเลยของการทำ Code Refactoring คือการ ลด technical debt เพื่อทำให้ โค้ดของเรามีคุณภาพมากขึ้น easy maintain, clean, readability และ ต้นทุนการพัฒนาก็จะลดลงไปด้วย เราไปดูกันว่า มีปัจจัยอะไรบ้าง",
+      "ก็จบไปแล้วสำหรับงานใหญ่อีกงาน Ruby Conference TH 2019 ที่จัดขึ้นที่ Pullman Bangkok King Power งานนี้ถือว่า เป็นครั้งแรกของประเทศไทย ที่มี งาน Conference ของ Ruby อย่างเป็นทางการเลยทีเดียว จะนำภาพจากงานมาให้รับชมกันครับ",
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ export const blogsAll = [
     date: "3 Aug 2019",
     imageUrl: "https://miro.medium.com/max/1400/1*6sJFLwjsSGrHShQxBIxr0g.jpeg",
     description:
-      "จุดประสงค์หลักเลยของการทำ Code Refactoring คือการ ลด technical debt เพื่อทำให้ โค้ดของเรามีคุณภาพมากขึ้น easy maintain, clean, readability และ ต้นทุนการพัฒนาก็จะลดลงไปด้วย เราไปดูกันว่า มีปัจจัยอะไรบ้าง",
+      "หลายคนอาจจะเคยใช้ เมธอดเหล่านี้มาบ้างใน Ruby แต่วันนี้จะมาแสดงให้ดูกันว่า ทั้งสามตัวนี้แตกต่างกันอย่างไร",
   },
   {
     id: 7,
@@ -160,7 +160,7 @@ export const blogsAll = [
     date: "10 Feb 2018",
     imageUrl: "https://miro.medium.com/max/952/1*cPaZsUcw4aUyMVPeoMRjYg.png",
     description:
-      "จุดประสงค์หลักเลยของการทำ Code Refactoring คือการ ลด technical debt เพื่อทำให้ โค้ดของเรามีคุณภาพมากขึ้น easy maintain, clean, readability และ ต้นทุนการพัฒนาก็จะลดลงไปด้วย เราไปดูกันว่า มีปัจจัยอะไรบ้าง",
+      "อีกเรื่องหนึ่งที่จะไม่พูดถึงไม่ได้เลย ถือว่าเป็นหัวใจสำคัญของการเขียนโปรแกรมโครงสร้างเชิงวัตถุ (Object-Oriented-Programming) คือ เรื่อง Class and Object สำหรับใครที่มีพื้นฐาน OOP มาอยู่แล้ว ก็ผ่านส่วนนี้ไปได้เลย แต่สำหรับคนที่ยังไม่มีพื้นฐาน หรือ ยังไม่ค่อยแน่ใจว่า มันคืออะไร วันนี้จะมาอธิบายกันแบบคร่าวๆให้พอเห็นภาพกัน",
   },
   {
     id: 17,
@@ -170,7 +170,7 @@ export const blogsAll = [
     date: "8 Feb 2018",
     imageUrl: "https://miro.medium.com/max/1400/1*7wV-UrVCgW2SJwzeDdgy_Q.png",
     description:
-      "จุดประสงค์หลักเลยของการทำ Code Refactoring คือการ ลด technical debt เพื่อทำให้ โค้ดของเรามีคุณภาพมากขึ้น easy maintain, clean, readability และ ต้นทุนการพัฒนาก็จะลดลงไปด้วย เราไปดูกันว่า มีปัจจัยอะไรบ้าง",
+      "วันนี้เรามาต่อกันที่การสร้าง เมธอด ในรูปแบบต่างๆกันในการสร้าง เมธอดของ Ruby นั้น สามารถสร้างได้หลายแบบทั้งแบบ ปกติ ",
   },
   {
     id: 18,
@@ -180,6 +180,6 @@ export const blogsAll = [
     date: "20 July 2017",
     imageUrl: "https://miro.medium.com/max/1400/1*q-an9QST7r8PdGCLL-TDJg.jpeg",
     description:
-      "จุดประสงค์หลักเลยของการทำ Code Refactoring คือการ ลด technical debt เพื่อทำให้ โค้ดของเรามีคุณภาพมากขึ้น easy maintain, clean, readability และ ต้นทุนการพัฒนาก็จะลดลงไปด้วย เราไปดูกันว่า มีปัจจัยอะไรบ้าง",
+      "สวัสดีครับทุกท่าน ผมเชื่อว่า หลายคนอาจจะเคยได้ยินชื่อของ ภาษา Ruby กันมาบ้างแล้ว หรือ หลายๆคนอาจจะเพิ่งเคยได้ยินครั้งแรกก็วันนี้แหละ วันนี้เราจะมาดูกันว่า เจ้า Ruby มันคืออะไร? และ มีหน้าตาเป็นอย่างไร?",
   },
 ];

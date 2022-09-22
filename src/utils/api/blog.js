@@ -18,7 +18,7 @@ export const blogsIndex = [
     date: "1 Aug 2022",
     imageUrl: "https://miro.medium.com/max/1400/1*LETruUal4sqbvZfVOxEnpQ.jpeg",
     description:
-      "จุดประสงค์หลักเลยของการทำ Code Refactoring คือการ ลด technical debt เพื่อทำให้ โค้ดของเรามีคุณภาพมากขึ้น easy maintain, clean, readability และ ต้นทุนการพัฒนาก็จะลดลงไปด้วย เราไปดูกันว่า มีปัจจัยอะไรบ้าง",
+      "วันก่อน ไปเจอฟีเจอร์นึง ของ Next.js ที่ไปลองมาแล้วคิดว่าดี เลยอยากจะเอามาแชร์ให้รู้กัน แต่สำหรับคนที่ยังไม่รู้นะครับ…",
   },
   {
     id: 3,
@@ -28,6 +28,6 @@ export const blogsIndex = [
     date: "20 July 2022",
     imageUrl: "https://miro.medium.com/max/1400/1*ItOBrhvSYpPCqs6XV6bmLg.jpeg",
     description:
-      "จุดประสงค์หลักเลยของการทำ Code Refactoring คือการ ลด technical debt เพื่อทำให้ โค้ดของเรามีคุณภาพมากขึ้น easy maintain, clean, readability และ ต้นทุนการพัฒนาก็จะลดลงไปด้วย เราไปดูกันว่า มีปัจจัยอะไรบ้าง",
+      "ใน javascript มี operator ตัวนึงที่น่าสนใจ คือ optional operator (?.) โดยปกติหากเราต้องการ เข้าถึง properties ใน object นั้นๆ เราจะต้อง .properties เข้าไป แต่ถ้าหากเราไม่แน่ใจว่า จะมี properties นั้นๆ อยู่ไหม optional chaning อาจเข้ามาช่วยได้",
   },
 ];
