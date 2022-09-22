@@ -22,7 +22,7 @@ function App() {
       <Text fontSize='md'> This is playground for test anything, Hell Yeah!</Text>
       {/* <Text fontSize='md'> This app using | React.js + Vite | Nest.js | Chakra UI | </Text> */}
       <Divider />
-      { isLargerThan455 ? <BreadCrumb /> : <></> }
+      {/* { isLargerThan455 ? <BreadCrumb /> : <></> } */}
       <Bio />
       <Blog />
       <Summary />

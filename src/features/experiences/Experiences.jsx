@@ -16,13 +16,13 @@ import {
 import { expLists } from "../../utils/api/experiences";
 
 export default function blogPostWithImage() {
-  const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)')
-  const [isLargerThan768] = useMediaQuery('(min-width: 768px)')
+  const [isLargerThan987] = useMediaQuery('(min-width: 987px)')
+  const [isLargerThan530] = useMediaQuery('(min-width: 530px)')
   return (
     <VStack paddingTop="40px" spacing="2" alignItems="flex-start">
       <Heading as="h2">Experiences</Heading>
       {
-        isLargerThan1280 ? 
+        isLargerThan987 ? 
           <Grid templateColumns={'repeat(3, 1fr)'} gap={'5'}>
           {
             expLists.map((data) => 
@@ -80,7 +80,7 @@ export default function blogPostWithImage() {
             )
           }
           </Grid> : 
-        isLargerThan768 ?
+        isLargerThan530 ?
           <Grid templateColumns={'repeat(2, 1fr)'} gap={'4'}>
             {
               expLists.map((data) => 
