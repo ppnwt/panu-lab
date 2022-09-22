@@ -14,6 +14,7 @@ import {
   MdLocationOn,
 } from 'react-icons/md';
 import { BsGithub, BsMedium } from 'react-icons/bs';
+import { GoFilePdf } from 'react-icons/go';
 
 export default function Footer() {
   const { hasCopied, onCopy } = useClipboard('panuwat.brd@gmail.com');
@@ -52,6 +53,19 @@ export default function Footer() {
                   color: useColorModeValue('white', 'gray.700'),
                 }}
               icon={<BsGithub size="28px" />}
+            />
+            </Link>
+          <Link href="https://drive.google.com/file/d/1gwWY41ssJ1pdZLhPoKTey8pC9AhJqj6s/view?usp=sharing" target={'_blank'}>
+            <IconButton
+              aria-label="documentPdf"
+              variant="ghost"
+              size="lg"
+              isRound={true}
+              _hover={{
+                  bg: 'gray.500',
+                  color: useColorModeValue('white', 'gray.700'),
+                }}
+              icon={<GoFilePdf size="28px" />}
             />
             </Link>
           <Tooltip
