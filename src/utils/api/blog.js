@@ -1,6 +1,6 @@
 export const blogsIndex = [
   {
-    id: 1,
+    id: 18,
     title: "Refactor / Clean code: ทำไมเราถึงควรทำสิ่งนี้ ?",
     url: "https://medium.com/@newzpanuwat/refactor-clean-code-why-a545b05e3728",
     author: "New Panuwat",
@@ -11,17 +11,17 @@ export const blogsIndex = [
       "จุดประสงค์หลักเลยของการทำ Code Refactoring คือการ ลด technical debt เพื่อทำให้ โค้ดของเรามีคุณภาพมากขึ้น easy maintain, clean, readability และ ต้นทุนการพัฒนาก็จะลดลงไปด้วย เราไปดูกันว่า มีปัจจัยอะไรบ้าง",
   },
   {
-    id: 2,
+    id: 17,
     title: "Dynamic Import (Next.js)",
     url: "https://medium.com/@newzpanuwat/dynamic-import-next-js-d96408353848",
     author: "New Panuwat",
     date: "1 Aug 2022",
     imageUrl: "https://miro.medium.com/max/1400/1*LETruUal4sqbvZfVOxEnpQ.jpeg",
     description:
-      "วันก่อน ไปเจอฟีเจอร์นึง ของ Next.js ที่ไปลองมาแล้วคิดว่าดี เลยอยากจะเอามาแชร์ให้รู้กัน แต่สำหรับคนที่ยังไม่รู้นะครับ…",
+      "วันก่อน ไปเจอฟีเจอร์นึง ของ Next.js ที่ไปลองมาแล้วคิดว่าดี เลยอยากจะเอามาแชร์ให้รู้กัน แต่สำหรับคนที่ยังไม่รู้นะครับน่าจะเป็นประโยชน์มากเลยทีเดียว สำหรับการ optimize app ของเราให้ทำงานได้อย่างรวดเร็วขึ้นเป็นกอง",
   },
   {
-    id: 3,
+    id: 16,
     title: "Optional Chaining ใช้ดีไหม?",
     url: "https://medium.com/@newzpanuwat/optional-chaining-61aa2c87f2e4",
     author: "New Panuwat",

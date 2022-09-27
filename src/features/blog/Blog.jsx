@@ -18,17 +18,18 @@ import {
   useControllableState,
 } from '@chakra-ui/react'
 
-import { blogsIndex } from "../../utils/api/blog";
 import { blogsAll } from "../../utils/api/blogAll";
 import BlogItems from './BlogItems';
 
 export default function Blog() {
-  const [blogsList, setBlogs] = useControllableState({ defaultValue: blogsIndex })
+  const blogsLength = blogsAll.length
+  const blogsFiltered = blogsAll.filter(blog => blog.id > blogsLength - 3)
+  const [blogsList, setBlogs] = useControllableState({ defaultValue: blogsFiltered })
   const [full, isFull] = useControllableState({ defaultValue: false })
 
   const handleLoadMore = () => {
     if (full) {
-      setBlogs(blogsIndex)
+      setBlogs(blogsFiltered)
       isFull(false)
     }else {
       setBlogs(blogsAll)
