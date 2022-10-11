@@ -20,9 +20,7 @@ function App() {
     <div className='App'>
       <Heading>Panu Lab 💻</Heading>
       <Text fontSize='md'> This is my playground , Hell Yeah!</Text>
-      {/* <Text fontSize='md'> This app using | React.js + Vite | Nest.js | Chakra UI | </Text> */}
       <Divider />
-      {/* { isLargerThan455 ? <BreadCrumb /> : <></> } */}
       <Bio />
       <Blog />
       <Summary />
