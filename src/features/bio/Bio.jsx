@@ -16,9 +16,9 @@ export default function Life() {
     <VStack paddingTop="20px" spacing="2" alignItems="center">
       <Avatar size={'xl'} src={avatarPhoto} />
         <Text as="p" fontSize={'xl'} fontWeight='bold'>
-          Panuwat Boonrod (New)
+          Mr. Panuwat Boonrod (New)
         </Text>
-        <Text fontSize={'xl'}>Software Engineer</Text>
+        <Text fontSize={'xl'}> Software Developer</Text>
         <UnorderedList>
           {bio.map((data) =>  <ListItem key={data.id}>{data.label}</ListItem>)}
         </UnorderedList>
