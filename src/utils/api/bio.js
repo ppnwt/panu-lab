@@ -15,4 +15,8 @@ export const bio = [
     id: 4,
     label: "🔆 I'm passionate about learning and development",
   },
+  {
+    id: 5,
+    label: "✨ Develop future goals for self-improvement and Big motivation",
+  },
 ];
