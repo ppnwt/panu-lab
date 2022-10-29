@@ -1,5 +1,15 @@
 export const blogsAll = [
   {
+    id: 19,
+    title: "Code Refactoring: ควรทำเมื่อไรนะ ?",
+    url: "https://medium.com/@newzpanuwat/code-refactoring-%E0%B8%84%E0%B8%A7%E0%B8%A3%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A3%E0%B8%99%E0%B8%B0-4bc8e6dd026b",
+    author: "New Panuwat",
+    date: "29 Oct 2022",
+    imageUrl: "https://miro.medium.com/max/1400/1*pnN0ZngtkVkog100wHbjcg.jpeg",
+    description:
+      "เมื่อทำการเพิ่มฟีเจอร์ใหม่ (When adding a feature) เมื่อเราจะต้องทำการเพิ่มฟีเจอร์ใหม่ และมีการไปยุ่งกับโค้ดเดิม การ refactor จะช่วยให้เราทำงานง่ายขึ้น และ โค้ดของเราก็จะคลีนขึ้นด้วย",
+  },
+  {
     id: 18,
     title: "Refactor / Clean code: ทำไมเราถึงควรทำสิ่งนี้ ?",
     url: "https://medium.com/@newzpanuwat/refactor-clean-code-why-a545b05e3728",
