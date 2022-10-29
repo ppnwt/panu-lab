@@ -13,12 +13,14 @@ export default function BlogItems({ data }) {
     <Box p={4} display={{ md: 'flex' }} >
       <Box flexShrink={0}>
         <LazyLoad offsetBottom={200}>
+        <a href={data.url}>
         <Image
           borderRadius='lg'
           width={{ md: 40 }}
           src={data.imageUrl}
           alt={data.title}
         />
+        </a>
         </LazyLoad>
       </Box>
       <Box mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
