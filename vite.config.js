@@ -14,6 +14,9 @@ export default defineConfig({
         short_name: "PanuLab",
         description: "PanuLab Playground",
         theme_color: "#ffffff",
+        offlineReady: true,
+        needRefresh: true,
+        ReloadPrompt: true,
         icons: [
           {
             src: "pwa-192x192.jpg",
