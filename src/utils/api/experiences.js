@@ -2,7 +2,7 @@ export const expLists = [
   {
     id: 1,
     projectName: "iService",
-    companyName: "Thailife Insurance Public Company Ltd",
+    companyName: "Apar Technologies OS at (TLI)",
     position: "Full Stack Developer (React)",
     companyColor: "blue.500",
     frontend: "Next JS",
@@ -11,12 +11,12 @@ export const expLists = [
     database: "Postgres",
     year: "July 2022 - Present",
     description:
-      "Working with internal project (Gathering all partner services into one service), In this project I've designed and develop frontend application using Next JS and connect API, in Backend section is RESTful API, and deployment with Kubernetes On-Premise",
+      "Working with exitsing project iService (Gathering all partner services into one service), In this project I've designed and develop frontend application using Next JS and connect API, in Backend section is RESTful API, and deployment with Kubernetes On-Premise",
   },
   {
     id: 2,
-    projectName: "Internal Project",
-    companyName: "Thailife Insurance Public Company Ltd",
+    projectName: "Solar Web",
+    companyName: "Apar Technologies OS at (TLI)",
     position: "Full Stack Developer (React)",
     companyColor: "blue.500",
     frontend: "Next JS",
