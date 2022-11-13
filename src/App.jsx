@@ -32,7 +32,7 @@ function App() {
         <GridItem colStart={6} colEnd={10}>
           <FormControl display='flex' alignItems='center'>
           <FormLabel htmlFor='theme-toggle' mb='0'>
-            Dark Mode {colorMode === 'light' ? 'OFF' : 'ON'}
+            {colorMode === 'light' ? 'Light' : 'Dark'} Mode
           </FormLabel>
           <Switch id='theme-toggle' isChecked={colorMode === 'dark' ? true : false}  colorScheme='teal' onChange={toggleColorMode} />
         </FormControl>
