@@ -17,6 +17,12 @@ export default defineConfig({
         offlineReady: true,
         needRefresh: true,
         ReloadPrompt: true,
+        updated(registration) {
+          console.log("New content is available; please refresh.");
+          document.dispatchEvent(
+            new CustomEvent("swUpdated", { detail: registration })
+          );
+        },
         icons: [
           {
             src: "pwa-192x192.jpg",
