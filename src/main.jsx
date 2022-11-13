@@ -4,21 +4,13 @@ import App from './App'
 import NotFound from './features/page/NotFound';
 import * as ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-
-// 2. Extend the theme to include custom colors, fonts, etc
-const colors = {
-  brand: {
-    900: '#1a365d',
-    800: '#153e75',
-    700: '#2a69ac',
-  },
-}
-
-const theme = extendTheme({ colors })
+import { ColorModeScript } from '@chakra-ui/react'
+import theme from '../theme'
 
 const rootElement = document.getElementById('root')
 ReactDOM.createRoot(rootElement).render(
     <ChakraProvider theme={theme} >
+      <ColorModeScript initialColorMode={theme.config.initialColorMode} />
       <Router>
       <Routes>
         <Route path='/' element={<App />} />
