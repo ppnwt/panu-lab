@@ -14,9 +14,6 @@ export default defineConfig({
         short_name: "PanuLab",
         description: "PanuLab Playground",
         theme_color: "#ffffff",
-        offlineReady: true,
-        needRefresh: true,
-        ReloadPrompt: true,
         updated(registration) {
           console.log("New content is available; please refresh.");
           document.dispatchEvent(
