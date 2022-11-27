@@ -5,7 +5,6 @@ import {
   UnorderedList,
   VStack,
   Divider,
-  Heading,
 } from '@chakra-ui/react'
 
 import { avatarPhoto } from "../../utils/api/images";

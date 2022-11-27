@@ -2,8 +2,6 @@ import './App.css'
 import { 
   Text, 
   Divider,
-  Heading,
-  useMediaQuery,
   useColorMode,
   FormControl,
   FormLabel,
@@ -21,7 +19,6 @@ import Blog from './features/blog/Blog'
 
 
 function App() {
-  const [isLargerThan455] = useMediaQuery('(min-width: 455px)')
   const { colorMode, toggleColorMode } = useColorMode()
   return (
     <div className='App'>
