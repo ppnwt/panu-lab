@@ -1,5 +1,19 @@
 export const expLists = [
   {
+    id: 0,
+    projectName: "tks console",
+    companyName: "True IDC",
+    position: "Senior Frontend Engineer",
+    companyColor: "red.500",
+    frontend: "Next JS",
+    backend: "",
+    devops: "Kubernetes",
+    database: "",
+    year: "Dec 2022 - Present",
+    description:
+      "In part of frontend development in TKS Console team at True IDC, handle data flow k8s and another APIs from backend and k8s API, develop extended features TKS console details of Deployment, Service, Pod, Ingress etc, and collaborate with Product Owner and (Team / Squad ) Lead Developer with whole app data flow and design",
+  },
+  {
     id: 1,
     projectName: "iService",
     companyName: "Apar Technologies OS at ไทยประกันชีวิต",
@@ -9,7 +23,7 @@ export const expLists = [
     backend: "Java Spring Boot",
     devops: "Kubernetes",
     database: "Postgres",
-    year: "July 2022 - Present",
+    year: "July 2022 - Nov 2022",
     description:
       "Working with exitsing project iService (Gathering existing partner services into one service), In this project I've designed and develop frontend application using Next JS and connect API, in Backend section is RESTful API, and deployment with Kubernetes On-Premise",
   },

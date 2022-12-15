@@ -1,10 +1,6 @@
 export const bio = [
   {
-    id: 1,
-    label: "🔭 @Thai Life Insurance Public Company Limited.",
-  },
-  {
-    id: 2,
+    id: 4,
     label: "☕ Latte & Americano addicted",
   },
   {
@@ -12,11 +8,11 @@ export const bio = [
     label: "🌱 I'm currently learning ... in role of Full Stack Developer",
   },
   {
-    id: 4,
+    id: 2,
     label: "🔆 I'm passionate about learning and development",
   },
   {
-    id: 5,
+    id: 1,
     label: "✨ Develop future goals for self-improvement and Big motivation",
   },
 ];
