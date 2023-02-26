@@ -1,5 +1,5 @@
-dev:
-	npm run dev
+# dev:
+# 	npm run dev
 
-build:
-	npm run build
+# build:
+# 	npm run build
