@@ -1,7 +1,4 @@
-## <Panu Lab>
-
-**This is playground for test anything, Hell Yeah!**
+## Personal info & Portfolios
 - Articles
 - POC
 - Demo
-- New library
