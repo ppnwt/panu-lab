@@ -1,4 +1,7 @@
 ## Personal info & Portfolios
 - Articles
-- POC
-- Demo
+- Experiences
+- POC (soon)
+- Demo (soon)
+- New UI (soon)
+
