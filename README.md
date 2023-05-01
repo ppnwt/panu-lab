@@ -4,4 +4,6 @@
 - POC (soon)
 - Demo (soon)
 - New UI (soon)
+- Technology stack details (soon)
+- 
 
