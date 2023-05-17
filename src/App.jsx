@@ -59,8 +59,8 @@ function App() {
       <Divider />
       <Bio bioData={bio} />
       <Blog blogsData={blogs} />
-      <Experiences expData={exp} />
       <Summary />
+      <Experiences expData={exp} />
       <Footer />
     </div>
   );
