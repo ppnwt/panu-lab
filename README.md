@@ -1,6 +1,8 @@
 ## Personal info & Portfolios
 
-- Proof Of Concepts (POCs)
-- Demo
-- Personal Blog
-- Web Application (mini project)
+- Blog
+- Experiences
+- POC (soon)
+- Demo (soon)
+- New UI (soon)
+- Technology stack details (soon)
