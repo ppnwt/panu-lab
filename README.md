@@ -1,4 +1,6 @@
 ## Personal info & Portfolios
-- Articles
-- POC
+
+- Proof Of Concepts (POCs)
 - Demo
+- Personal Blog
+- Web Application (mini project)
