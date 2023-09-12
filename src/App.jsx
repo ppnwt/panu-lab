@@ -1,6 +1,5 @@
 import "./App.css";
 import { Text, Divider, useColorMode, FormControl, FormLabel, Switch, Grid, GridItem } from "@chakra-ui/react";
-import BreadCrumb from "./components/BreadCrumb";
 import Footer from "./components/layouts/Footer";
 
 import axios from "axios";
@@ -55,7 +54,7 @@ function App() {
           </FormControl>
         </GridItem>
       </Grid>
-      <Text fontSize="sm"> This is my playground , Hell Yeah!</Text>
+      <Text fontSize="sm">Keep forward !</Text>
       <Divider />
       <Bio bioData={bio} />
       <Blog blogsData={blogs} />
